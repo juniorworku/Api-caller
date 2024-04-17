@@ -10,6 +10,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@types/axios": "^0.14.0",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
     "solid-devtools": "^0.29.2",
@@ -19,9 +20,12 @@
     "vite-plugin-solid": "^2.8.2"
   },
   "dependencies": {
+    "@alenaksu/json-viewer": "^2.0.1",
     "@solid-primitives/storage": "^3.3.0",
     "@solidjs/router": "^0.13.2",
+    "axios": "^1.6.8",
     "solid-forms": "^0.4.8",
-    "solid-js": "^1.8.11"
+    "solid-js": "^1.8.11",
+    "swr": "^2.2.5"
   }
 }
